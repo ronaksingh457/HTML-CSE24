@@ -1,74 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 
-    <form action=",/response.html" name="rk" target="_blank" method="get"></form>
-    <fieldset>
-        <legend>personal information</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="enter your name" required>
-        <br><br>
-        <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="enter your email" required>
-    <br><br>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <form action=",/response.html" name="rk" target="_blank" method="get"></form>
+  <fieldset>
+    <legend>personal information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="enter your name" required />
+    <br /><br />
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="enter your email" required />
+    <br /><br />
     <label for="dob">DOB:</label>
-    <input type="date" id="dob" name="dob" >
-    <br><br>
+    <input type="date" id="dob" name="dob" />
+    <br /><br />
     <label for="phone">phone:</label>
-    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
-    <br><br>
+    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required />
+    <br /><br />
     <label for="add">Address:</label>
     <textarea name="address" id="address" rows="5" cols="30"></textarea>
-    <br><br>
+    <br /><br />
     <label for="pass">Password:</label>
-    <input type="password" id="pass" name="pass" required>
-    <br><br>
+    <input type="password" id="pass" name="pass" required />
+    <br /><br />
     <label for="attemt">Attempt:</label>
-    <input type="number" id="attemt" name="attemt" min="1" max="6" required>
-    <br><br>
+    <input type="number" id="attemt" name="attemt" min="1" max="6" required />
+    <br /><br />
     <label for="gender">Gender:</label>
-    <input type="radio" id="male" name="gender" value="male" required><label for="male">Male</label>
-    <input type="radio" id="female" name="gender" value="female" required><label for="female">Female</label>
-    <br><br>
+    <input type="radio" id="male" name="gender" value="male" required /><label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required /><label for="female">Female</label>
+    <br /><br />
     <label for="check">vehicles u have</label>
-    <input type="checkbox" id="car" name="veh1">CAR
-    <input type="checkbox" id="bike" name="veh2">BIKE
-    <br><br>
+    <input type="checkbox" id="car" name="veh1" />CAR
+    <input type="checkbox" id="bike" name="veh2" />BIKE <br /><br />
     <label for="sel">select your languages</label>
     <select name="sel" id="sel">
-        <option>select your choice</option>
-        <optgroup label="programming language">
+      <option>select your choice</option>
+      <optgroup label="programming language">
         <option value="C">C</option>
         <option value="C++">C++</option>
         <option value="Java">Java</option>
-    </optgroup>
-        <optgroup label="fronthand"> 
+      </optgroup>
+      <optgroup label="fronthand">
         <option value="Html">html</option>
         <option value="css">css</option>
         <option value="javascript">javascript</option>
-        </optgroup>
+      </optgroup>
+    </select>
+    <br /><br />
+    <label for="upload">file upload</label>
+    <input type="file" required />
+    <br /><br />
+    <label for="appointment">appointment</label>
+    <input type="time" id="appointment" name="appointment" required />
+    <br /><br />
+    <br /><br />
+    <label for="url">url</label>
+    <input type="url" id="url" name="url" required />
+    <br /><br />
+    <input type="=sumbit" />
+    <input type="reset" />
+  </fieldset>
+  <fieldset>
+    <legend>10th qualification</legend>
+    <label for="sel">board</label>
+    <select name="sel" id="sel">
+      <option>select your choice</option>
+    <option value="cbse">cbse</option>
+    <option value="icse">icse</option>
+    <option value="bbse">bbse</option>
     </select>
     <br><br>
-    <label for="upload">file upload</label>
-    <input type="file" required>
+    <label for="year">year</label>
+    <input type="date" id="year" name="year">
     <br><br>
-    <label for="appointment">appointment</label>
-    <input type="time" id="appointment" name="appointment" required>
-    <br><br>
-    <br><br>
-    <label for="url">url</label>
-    <input type="url" id="url" name="url" required>
-    <br><br>
-    <input type="=sumbit">
-    <input type="reset">
-
-
-    </fieldset>
     
+
+  </fieldset>
 </body>
+
 </html>
